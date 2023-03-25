@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cho-ui/foo": "workspace:^1.0.0"
+    "@cho-ui/foo": "workspace:^1.0.0",
+    "@cho-ui/test8888": "workspace:^1.0.0"
   }
 }
