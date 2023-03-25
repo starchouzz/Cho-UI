@@ -1,12 +1,10 @@
 import { App } from 'vue'
 import Foo from '@cho-ui/foo'
-import Test8888 from '@cho-ui/test8888'
 // import component end
 import '../scss/index.scss'
 
 const components = [
-  Foo,
-  Test8888
+  Foo
 ] // components
 
 // 全局动态添加组件

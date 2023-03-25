@@ -1,16 +1,13 @@
 ---
 layout: home
 
-title: YYG-DEMO-UI
+title: CHO-UI
 editLink: true
 lastUpdated: true
 hero:
-  name: yyg-demo-ui
-  text: YYG Vue3企业级中后台组件库
+  name: cho-ui
+  text: Vue3组件库
   tagline: 组件库描述 / SLOGAN
-  image:
-    src: /logo.png
-    alt: yyg-admin-ui
   actions:
     - theme: brand
       text: 快速开始

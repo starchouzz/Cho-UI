@@ -94,18 +94,10 @@ importers:
   packages/cho-ui:
     specifiers:
       '@cho-ui/foo': workspace:^1.0.0
-      '@cho-ui/test8888': workspace:^1.0.0
     dependencies:
       '@cho-ui/foo': link:../foo
-      '@cho-ui/test8888': link:../test8888
 
   packages/foo:
-    specifiers:
-      '@cho-ui/utils': workspace:^1.0.0
-    dependencies:
-      '@cho-ui/utils': link:../utils
-
-  packages/test11:
     specifiers:
       '@cho-ui/utils': workspace:^1.0.0
     dependencies:
