@@ -21,7 +21,7 @@
     "gen:component": "pnpm run -C cli gen",
     "lint": "eslint \"{cli,packages,docs,example}/**/*.{js,ts,vue,jsx,tsx}\" --fix",
     "start:verdaccio": "pnpm verdaccio",
-    "pub:local": "pnpm publish --registry https://registry.npmjs.org/"
+    "pub:npmjs": "pnpm publish --registry https://registry.npmjs.org/"
   },
   "keywords": [],
   "author": "starchou",
