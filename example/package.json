@@ -13,7 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@cho-ui/cho-ui": "workspace:^1.0.0",
+    "@cho-ui/components": "workspace:^1.0.0",
     "element-plus": "^2.3.1"
   },
   "devDependencies": {

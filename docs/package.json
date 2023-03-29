@@ -12,12 +12,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@cho-ui/components": "workspace:^1.0.0",
     "vitepress": "1.0.0-alpha.60"
   },
   "dependencies": {
-    "@cho-ui/cho-ui": "workspace:^1.0.0",
     "@vitepress-demo-preview/component": "^2.2.0",
-    "@vitepress-demo-preview/plugin": "^1.1.7",
-    "element-plus": "^2.3.1"
+    "@vitepress-demo-preview/plugin": "^1.1.7"
   }
 }

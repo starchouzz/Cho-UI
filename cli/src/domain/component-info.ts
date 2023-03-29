@@ -34,7 +34,7 @@ export class ComponentInfo {
     this.lowCamelName = convertToLowCamelName(this.upCamelName)
     this.zhName = description
     this.type = componentType === 'vue' ? 'vue' : 'tsx'
-    this.parentPath = path.resolve(__dirname, '../../../packages')
+    this.parentPath = path.resolve(__dirname, '../../../components')
     this.fullPath = path.resolve(this.parentPath, this.lineName)
     this.nameWithLib = `@${Config.COMPONENT_LIB_NAME}/${this.lineName}`
   }
